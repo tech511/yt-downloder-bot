@@ -1,0 +1,14 @@
+# Telegram library (the bot code imports it as "pyrogram").
+# If this version refuses to install/import on your newest Python, use the
+# maintained drop-in fork instead:  pip install kurigram   (same "pyrogram" import)
+Pyrogram==2.0.106
+
+# YouTube. yt-dlp + yt-dlp-ejs must be kept up to date TOGETHER:
+#   pip install -U yt-dlp yt-dlp-ejs
+yt-dlp>=2025.11.12
+yt-dlp-ejs
+
+python-dotenv>=1.0.1
+
+# Optional but recommended for faster uploads (needs a compiler on Termux: pkg install clang):
+#   pip install TgCrypto
